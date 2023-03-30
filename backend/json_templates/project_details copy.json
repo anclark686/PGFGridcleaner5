@@ -1,0 +1,161 @@
+{
+  "master": "m146337",
+  "fac": "InterVu (Europe)",
+  "country": "",
+  "language": "",
+  "two-channel": "220",
+  "session-type": "IDI",
+  "webcam": "WebCam",
+  "project-notes": "test project\nRef: 12345 | Webcam IDIs | NO TS | 2CA",
+  "project-numbers": [
+    "600612",
+    "600614",
+    "600615",
+    "600616",
+    "600613",
+    "600352",
+    "600353"
+  ],
+  "dates": [
+    "1/1/2023",
+    "1/21/2023",
+    "1/28/2023",
+    "2/18/2023",
+    "12/9/2023",
+    "12/16/2023",
+    "12/17/2023"
+  ],
+  "times": [
+    "3:00AM-6:00PM",
+    "8:00AM-11:00PM",
+    "3:00AM-8:00PM",
+    "7:00AM-6:00PM",
+    "3:00AM-6:00PM",
+    "7:00AM-6:00PM",
+    "6:00AM-7:00PM"
+  ],
+  "statuses": [
+    "Active",
+    "Active",
+    "Active",
+    "Active",
+    "Active",
+    "Active",
+    "Active"
+  ],
+  "grid_dates": ["1/1/2023", "1/21/2023", "1/28/2023"],
+  "grid_times": ["10:00AM-1:00PM", "8:00AM-1:00PM", "8:00AM-12:00PM"],
+  "grid_notes": [],
+  "stats": {
+    "rsps_to_add": 9,
+    "rsps_to_delete": 0,
+    "rsps_to_change": 0,
+    "missing_rsps": 8
+  },
+  "missing_rsps": [
+    {
+      "project": "600612",
+      "date": "1/1/2023",
+      "group-time": "8:00 AM",
+      "my-time": "07:00 AM",
+      "name": "not a blank",
+      "phone": "123456789",
+      "email": "alycia.clark@forsta.com",
+      "html-group": "GroupMainRow_1",
+      "html-name": "RespondentName1_0",
+      "extras": "",
+      "status": "Scheduled"
+    },
+    {
+      "project": "600612",
+      "date": "1/1/2023",
+      "group-time": "8:00 AM",
+      "my-time": "08:00 AM",
+      "name": "Respondent1",
+      "phone": "5555555551",
+      "email": "Respondent1@example.com",
+      "html-group": "GroupMainRow_2",
+      "html-name": "RespondentName2_0",
+      "extras": "",
+      "status": "Scheduled"
+    },
+    {
+      "project": "600612",
+      "date": "1/1/2023",
+      "group-time": "9:00 AM",
+      "my-time": "09:00 AM",
+      "name": "Respondent2",
+      "phone": "5555555552",
+      "email": "Respondent2@example.com",
+      "html-group": "GroupMainRow_3",
+      "html-name": "RespondentName3_0",
+      "extras": "",
+      "status": "Scheduled"
+    },
+    {
+      "project": "600352",
+      "date": "12/16/2023",
+      "group-time": "12:00 PM",
+      "my-time": "11:00 AM",
+      "name": "testrsp",
+      "phone": "",
+      "email": "",
+      "html-group": "GroupMainRow_0",
+      "html-name": "RespondentName0_0",
+      "extras": "",
+      "status": "Scheduled"
+    },
+    {
+      "project": "600352",
+      "date": "12/16/2023",
+      "group-time": "1:00 PM",
+      "my-time": "01:00 PM",
+      "name": "testrsp2",
+      "phone": "123456",
+      "email": "TEST@EXAMPLE.COM",
+      "html-group": "GroupMainRow_1",
+      "html-name": "RespondentName1_0",
+      "extras": "Adding something",
+      "status": "Scheduled"
+    },
+    {
+      "project": "600352",
+      "date": "12/16/2023",
+      "group-time": "4:00 PM",
+      "my-time": "04:00 PM",
+      "name": "testgrprsp",
+      "phone": "",
+      "email": "",
+      "html-group": "GroupMainRow_2",
+      "html-name": "RespondentName2_0",
+      "extras": "",
+      "status": "Scheduled"
+    },
+    {
+      "project": "600352",
+      "date": "12/16/2023",
+      "group-time": "4:00 PM",
+      "my-time": "04:00 PM",
+      "name": "testgrprsp1",
+      "phone": "",
+      "email": "test2@test.com",
+      "html-group": "GroupMainRow_2",
+      "html-name": "RespondentName2_1",
+      "extras": "",
+      "status": "Scheduled"
+    },
+    {
+      "project": "600352",
+      "date": "12/16/2023",
+      "group-time": "4:00 PM",
+      "my-time": "04:00 PM",
+      "name": "testgrprsp2",
+      "phone": "123456789",
+      "email": "test@test.com",
+      "html-group": "GroupMainRow_2",
+      "html-name": "RespondentName2_2",
+      "extras": "",
+      "status": "Scheduled"
+    }
+  ]
+}
