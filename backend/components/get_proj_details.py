@@ -213,7 +213,7 @@ def project_details(master_num, file_path, recheck=False):
         combo_data = compare_grid_pc(info_dict)
         info_dict["stats"] = combo_data["stats"]
         info_dict["missing_rsps"] = combo_data["missing_rsps"]
-        make_new_excel(combo_data["grid_rsps"])
+        make_new_excel(combo_data["grid_rsps"], master_num)
 
         save_project_details(info_dict)
 

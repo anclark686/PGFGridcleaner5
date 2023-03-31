@@ -519,7 +519,7 @@ def populate_cleaned_data(ws, project_details):
     return [sorted_rows, dates, times, notes]
 
 
-def make_new_excel(row_list):
+def make_new_excel(row_list, master_num):
     new_wb = openpyxl.Workbook()
     sheet = new_wb.active
     dim_holder = DimensionHolder(worksheet=sheet)
@@ -613,7 +613,7 @@ def make_new_excel(row_list):
 
         sheet.column_dimensions = dim_holder
 
-        new_wb.save("newFile.xlsx")
+        new_wb.save(gm_path + f"/{master_num}-cleaned.xlsx")
 
 
 def clean_and_check_grid(file_path, master_num, project_details):
